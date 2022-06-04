@@ -29,7 +29,7 @@ app.get('/api/v1/reviews/:id', (request, response) => {
 app.post('/api/v1/reviews', (request, response) => {
   const { breweryID } = request.params;
   const breweryReviews = app.locals.reviews.filter(review => breweryID === review.id)
-  breweryReviews.push(request.body)
+  reviewsData.push(request.body)
 
   response.status(201).json({message: 'good job', post: request.body});
 })
