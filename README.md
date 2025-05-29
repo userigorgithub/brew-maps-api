@@ -1,6 +1,6 @@
 # Brew Maps API
 
-This repo was created to be used with the [Brew Maps](https://github.com/stephanie-roe/brew-maps/tree/main) project.
+This repo was created to be used with the [Brew Maps](https://github.com/userigorgithub/brew-maps) project.
 
 ## Set Up
 
@@ -8,7 +8,7 @@ Clone this down, and cd into it. Then run:
 
 `npm install`
 
-`npm start`
+`node server.js`
 
 ## Endpoints
 | Description | URL | Method | Required Properties for Request | Sample Successful Response |
